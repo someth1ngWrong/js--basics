@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Особый сайт</title>
+    <style>
+      h1 {
+        max-width: 80vw;
+        font-size: 9vw;
+        font-family: sans-serif;
+      }
+      #userName {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Сайт сделан спешл фо ю, <span id="userName"></span>
+    </h1>
+    <script>
+    let name = prompt ("Как тебя зовут?")
+    document.getElementById('userName').textContent = name
+    console.log(Ниже результат выполнения фу-ии)
+    console.log(document.getElementById('userName'))
+    </script>
+  </body>
+</html>
