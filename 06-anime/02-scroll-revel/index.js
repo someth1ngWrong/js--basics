@@ -15,6 +15,7 @@ new ScrollMagic.Scene({
   targetElement: box1,
   triggerHook: 'onEnter'
 })
+
 .addTo(controller)
 .on('enter', function(){
   box1Animation.play()
