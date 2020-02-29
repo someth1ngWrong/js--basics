@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Aclonica|Black+Ops+One|Courier+Prime|Poppins|Press+Start+2P|Raleway|Righteous|Special+Elite|VT323&display=swap');
+
+body {
+  margin: 0;
+}
+
+div {
+  position: fixed;
+  transition: 400ms all ease;
+  will-change: transform;
+
+}
