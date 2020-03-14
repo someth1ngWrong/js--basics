@@ -1,4 +1,4 @@
-let numberOfRects = 20
+let numberOfRects = 200
 
 for (let i = 0; i < numberOfRects; i += 1) {
   let div = document.createElement('div')
@@ -49,7 +49,8 @@ let fonts = [
   'VT323'
 ]
 let word = Math.random().toString(36).slice(-10)
-let numberOfWords = 20
+
+let numberOfWords = 200
 
 for (let i = 0; i < numberOfWords; i += 1) {
   let p = document.createElement('p')
